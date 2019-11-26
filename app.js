@@ -1,64 +1,60 @@
-const express = require('express');
-const expressLayouts = require('express-ejs-layouts');
-const mongoose = require('mongoose');
-const passport = require('passport');
-const flash = require('connect-flash');
-const session = require('express-session');
+var firebaseConfig = {
+      apiKey: "AIzaSyBqQu7rZkjmK_ziwVrsIOoALyFDbXpeK5Y",
+      authDomain: "popochaofan3.firebaseapp.com",
+      databaseURL: "https://popochaofan3.firebaseio.com",
+      projectId: "popochaofan3",
+      storageBucket: "popochaofan3.appspot.com",
+      messagingSenderId: "833771618743",
+      appId: "1:833771618743:web:ed2f26964c04a5ad9fa832",
+      measurementId: "G-LZ1334B3XG"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig)
+  
+ 
 
-const app = express();
+//Reference for form collection(3)
+let formMessage = firebase.database().ref('register');
 
-// Passport Config
-require('./config/passport')(passport);
+//listen for submit event//(1)
+document
+  .getElementById('popochaofan3')
+  .addEventListener('submit', formSubmit);
 
-// DB Config
-const db = require('./config/keys').mongoURI;
+//Submit form(1.2)
+function formSubmit(e) {
+  e.preventDefault();
+  // Get Values from the DOM
+  let name = document.querySelector('#name').value;
+  let email = document.querySelector('#email').value;
+  let password = document.querySelector('#password').value;
+  let job = document.querySelector('#job').value;
+  let interest = document.querySelector('#interest').value;
 
-// Connect to MongoDB
-mongoose
-  .connect(
-    db, {
-      useNewUrlParser: true
-    }
-  )
-  .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.log(err));
+  //send message values
+  sendMessage(name, email, password, job, interest);
 
-// EJS
-app.use(expressLayouts);
-app.set('view engine', 'ejs');
+  //Show Alert Message(5)
+  document.querySelector('.alert').style.display = 'block';
 
-// Express body parser
-app.use(express.urlencoded({
-  extended: true
-}));
+  //Hide Alert Message After Seven Seconds(6)
+  setTimeout(function() {
+    document.querySelector('.alert').style.display = 'none';
+  }, 7000);
 
-// Express session
-app.use(
-  session({
-    secret: 'secret',
-    resave: true,
-    saveUninitialized: true
-  })
-);
+  //Form Reset After Submission(7)
+  document.getElementById('popochaofan3').reset();
+}
 
-// Passport middleware
-app.use(passport.initialize());
-app.use(passport.session());
+//Send Message to Firebase(4)
 
-// Connect flash
-app.use(flash());
-// Global variables
-app.use(function (req, res, next) {
-  res.locals.success_msg = req.flash('success_msg');
-  res.locals.error_msg = req.flash('error_msg');
-  res.locals.error = req.flash('error');
-  next();
-});
-
-// Routes
-app.use('/', require('./routes/index.js'));
-app.use('/users', require('./routes/users.js'));
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, console.log(`Server started on port ${PORT}`));
+function sendMessage(name, email, password, job, interest) {
+  let newFormMessage = formMessage.push();
+  newFormMessage.set({
+    name: name,
+    email: email,
+    password: password,
+    job: job,
+    Interest: interest
+  });
+}

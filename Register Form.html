@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="stylecss.css" />
+  <title>Registration Form</title>
+ 
+ <style>
+      body {
+        background: black ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+        
+</head>
+
+<body>
+
+    <div style="background-image: url('11.jpg');">
+  
+      <form action="" method="POST" id="popochaofan3">
+    
+        <h1>Register & Log in</h1>
+    <div class="alert">Message Sent</div>
+    <fieldset>
+      <!-- Section 1 -->
+      <legend><span class="section"></span>Your profile</legend>
+      <label class="" for="name">Name:</label>
+      <input type="text" name="name" value="" id="name" required />
+
+      <label class="" for="email">Email:</label>
+      <input type="email" name="email" value="" id="email" required />
+
+      <label for="password">password:</label>
+      <input type="password" name="password" value="" id="password" required />
+    
+
+    
+      
+      <label for="job">Job Role:</label>
+      <select name="job" id="job" required>
+        <optgroup>
+          <option value="front_end_developer" id="frontend">Finance Departement</option>
+          <option value="back_end_developer" id="backend">Chief Manager</option>
+          <option value="fullstack_developer" id="fullstack">Director of The Canteen</option>
+        </optgroup>
+        
+      </select>
+      <br /><br />
+      <label>Services:</label>
+
+      <select id="interest" required>
+        <option value="development">Full Service Management</option>
+        <option value="design">Healthy Diet Consulting</option>
+        <option value="business">Canteen Corner</option>
+	  </select>
+	</fieldset>
+
+
+      <button type="submit" sendMessage()>Register</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
