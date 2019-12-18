@@ -69,15 +69,17 @@
                                         In health and happiness,</p>
                 </div>
 
-                <form class="form-style-1 placeholder-1">
+                <form class="form-style-1 placeholder-1" action="https://formspree.io/tanolain@gmail.com" method="POST" > 
                         <div class="row">
-                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="Name">  </div>
-                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="E-mail">  </div>
-                                <div class="col-md-12"><input class="mb-20" type="text" placeholder="Subject">  </div>
+                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="Name" name="name" id="name">  </div>
+                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="E-mail" name="email" id="email">  </div>
+                                <div class="col-md-12"><input class="mb-20" type="text" placeholder="Subject" name="subject" id="subject">  </div>
                                 <div class="col-md-12">
-                                        <textarea class="h-200x ptb-20" placeholder="Message"></textarea></div>
+                                        <textarea class="h-200x ptb-20" placeholder="Message" name="message" id="message"></textarea></div>
                         </div><!-- row -->
-                        <h6 class="center-text mtb-30"><a href="#" class="btn-primaryc plr-25"><b>SEND MESSAGE</b></a></h6>
+                
+                        <!-- <h6 class="center-text mtb-30"><a  class="btn-primaryc plr-25 " type="submit" id="submit"><b>SEND MESSAGE</b></a></h6> -->
+                        <button class="btn-primaryc plr-25" type="submit" id="submit" >SEND MESSAGE</button>
                 </form>
         </div><!-- container -->
 </section>
