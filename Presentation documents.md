@@ -9,4 +9,12 @@
  
  - There are many government programs available for schools to promote healthy lifestyles for students. Read this section to find out about programs that encourage students to increase physical activity and fruit and vegetable consumption levels. Each program has support resources available for your school to make implementation easy!
  - Schools can do a lot to promote and encourage healthy eating for their students. This section provides secondary teachers and out of school hours teachers with access to teaching resources, easily accessible guidelines and links to nutrition related materials.
- ![](images/ok.jpg)
+ <p align="centre"> 
+
+# FRONT END OF THE WEBSITE
+## NAVIGATION STRUCTURE 
+* Home page
+* About Us page
+* Service page 
+* News page
+* Contact Page
