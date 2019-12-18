@@ -18,3 +18,37 @@
 * Service page 
 * News page
 * Contact Page
+ # REGISTRATION 
+ 
+ ![Registration](https://user-images.githubusercontent.com/53164216/71062019-6faa3400-21a4-11ea-847a-26775ee4a2fe.PNG)
+
+ 
+ # HOME PAGE 
+ 
+ ![Home](https://user-images.githubusercontent.com/53164216/71059616-3c64a680-219e-11ea-9484-ba4836b1fc4c.PNG)
+
+# ABOUT US PAGE 
+
+![About us](https://user-images.githubusercontent.com/53164216/71059495-fad3fb80-219d-11ea-8cfd-53b471331a4b.PNG)
+
+# SERVICES
+
+![SERVICE](https://user-images.githubusercontent.com/53164216/71059823-d298cc80-219e-11ea-9456-a63e6edba48c.PNG)
+
+# NEWS
+
+![Blog](https://user-images.githubusercontent.com/53164216/71059842-e2b0ac00-219e-11ea-8390-63f8051462c3.PNG)
+
+# CONTACTS
+
+![Contact](https://user-images.githubusercontent.com/53164216/71059973-3cb17180-219f-11ea-950e-3246c62ac1fb.PNG)
+## contact form 
+![contactform](https://user-images.githubusercontent.com/53164216/71060786-6370a780-21a1-11ea-97bc-d140f8d05927.PNG)
+
+## Displayed Menu 
+
+![MENU](https://user-images.githubusercontent.com/53164216/71061271-9e270f80-21a2-11ea-8e69-de80a657f55a.PNG)
+
+## Parents will be able to check on the coming menu 
+
+![NEXT WEEK MENU](https://user-images.githubusercontent.com/53164216/71061580-48069c00-21a3-11ea-9f56-493b3127a604.PNG)
