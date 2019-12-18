@@ -52,3 +52,9 @@
 ## Parents will be able to check on the coming menu 
 
 ![NEXT WEEK MENU](https://user-images.githubusercontent.com/53164216/71061580-48069c00-21a3-11ea-9f56-493b3127a604.PNG)
+
+## SUBSCRIPTION 
+
+![subscription](https://user-images.githubusercontent.com/53164216/71062661-06c3bb80-21a6-11ea-85ca-0af51a8b3ee1.PNG)
+
+
