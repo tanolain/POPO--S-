@@ -11,7 +11,16 @@
  - Schools can do a lot to promote and encourage healthy eating for their students. This section provides secondary teachers and out of school hours teachers with access to teaching resources, easily accessible guidelines and links to nutrition related materials.
  <p align="centre"> 
 
-# FRONT END OF THE WEBSITE
+## FRONT END OF THE WEBSITE DESIGNED WITH 
+* HTML
+* CSS
+* BOOSTRAP
+* JAVASCRIPT
+
+## BACK END OF THE WEBSITE DESIGNED WITH 
+* Node.Js
+* Express.Js
+* MongoDB
 ## NAVIGATION STRUCTURE 
 * Home page
 * About Us page
