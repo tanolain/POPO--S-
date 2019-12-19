@@ -40,6 +40,10 @@
  
  ![delete account](https://user-images.githubusercontent.com/53164216/71167743-36e78900-2290-11ea-914e-f5431d467ead.PNG)
  
+## Updating your Informations
+
+![EDIt](https://user-images.githubusercontent.com/53164216/71170047-52a15e00-2295-11ea-81e1-5c5794de93c7.PNG)
+ 
  # HOME PAGE 
  
  ![Home](https://user-images.githubusercontent.com/53164216/71059616-3c64a680-219e-11ea-9484-ba4836b1fc4c.PNG)
