@@ -33,6 +33,12 @@
  
  ![Registration](https://user-images.githubusercontent.com/53164216/71062019-6faa3400-21a4-11ea-847a-26775ee4a2fe.PNG)
 
+# WITH CRUD OPERATION ON POINT 
+ * Create your Account 
+ * Update your Account Details
+ * Delete your Accout 
+ 
+ ![delete account](https://user-images.githubusercontent.com/53164216/71167743-36e78900-2290-11ea-914e-f5431d467ead.PNG)
  
  # HOME PAGE 
  
